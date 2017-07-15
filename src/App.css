@@ -9,7 +9,7 @@ html {
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 15s linear;
   height:100%;
   border-radius: 100%
 }
@@ -255,7 +255,8 @@ and (orientation : landscape) {
   }
 
   .App-logo {
-    height: 100%
+    height: 100%;
+    border-radius: 100%
   }
 
   .App-header {
@@ -300,7 +301,8 @@ and (orientation : portrait) {
   }
 
   .App-logo {
-    height: 125%
+    height: 100%;
+    border-radius: 100%
   }
 
   .App-header {
