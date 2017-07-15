@@ -1,0 +1,435 @@
+html {
+  background-color: #222;
+}
+
+.App {
+  text-align: center;
+  background-color: #222222;
+  margin-top: 10%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height:100%;
+  border-radius: 100%
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: #9a5dcd;
+}
+
+#banner-text {
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 5%;
+}
+
+.App-display {
+  font-family: 'Orbitron', sans-serif;
+  margin-top: 10%;
+  color: #72BA34
+}
+
+.App-config {
+  margin-top:5%;
+}
+
+label {
+  font-family: 'Orbitron', sans-serif;
+  color: #72ba34
+}
+
+.form-control {
+  font-family: monospace;
+  color: #9a5dcd
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#start-btn, #stop-btn {
+  font-family: 'Orbitron', sans-serif;
+  display: flex;
+  margin-top: 2%;
+  color: #9a5dcd
+}
+
+#stop-btn {
+  background-color: #9a5dcd;
+  color: #72ba34
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 750px)
+and (orientation : landscape) {
+
+  .App {
+    margin-top: 1%
+  }
+
+  .App-logo {
+    height: 50%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    height: 80px;
+    padding: 5px;
+  }
+
+  #banner-text {
+    margin-top: 5%;
+    font-size: 1.25em
+  }
+
+  .App-display {
+    margin-top: 0%
+  }
+
+  #digits {
+    font-size: 3em
+  }
+
+  .App-config {
+    margin-top:0%
+  }
+
+  #start-btn {
+    font-size:1em;
+    padding: 2px
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 750px)
+and (orientation : portrait) {
+
+  .App {
+    margin-top: 22%
+  }
+
+  .App-logo {
+    height: 66%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+  }
+
+  #banner-text {
+    margin-top: 15%;
+    font-size:1.75em
+  }
+
+  .App-display {
+    margin-top: 15%
+  }
+
+  #digits {
+    font-size: 3em
+  }
+
+  .App-config {
+    margin-top:12%
+  }
+
+  #start-btn {
+    margin-top: 9%;
+  }
+
+  #stop-btn {
+    margin-top: 9%
+  }
+}
+
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 960px)
+and (orientation : landscape) {
+
+  .App {
+    margin-top: 4%
+  }
+
+  .App-logo {
+    height: 85%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+  }
+
+  #banner-text {
+    margin-top: 5%;
+    font-size:2.5em
+  }
+
+  .App-display {
+    margin-top: 11%
+  }
+
+  #digits {
+    font-size: 3.25em
+  }
+
+  .App-config {
+    margin-top:4%
+  }
+
+  #start-btn {
+    margin-top: 4%;
+  }
+
+  #stop-btn {
+    margin-top: 4%
+  }
+}
+
+@media only screen
+and (min-device-width : 600px)
+and (max-device-width : 960px)
+and (orientation : portrait) {
+
+  .App {
+    margin-top: 17%
+  }
+
+  .App-logo {
+    height: 125%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+  }
+
+  #banner-text {
+    margin-top: 10%;
+    font-size:3.25em
+  }
+
+  .App-display {
+    margin-top: 40%;
+  }
+
+  #digits {
+    font-size: 5em
+  }
+
+  .App-config {
+    margin-top:15%;
+    font-size: 1.33em
+  }
+
+  #start-btn {
+    margin-top: 15%;
+    font-size: 2em
+  }
+
+  #stop-btn {
+    margin-top: 15%;
+    font-size: 2em
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1280px)
+and (orientation : landscape) {
+
+  .App {
+    margin-top: 1%
+  }
+
+  .App-logo {
+    height: 100%
+  }
+
+  .App-header {
+    height: 200px;
+
+  }
+
+  #banner-text {
+    font-size: 2.75em
+  }
+
+  .App-display {
+    margin-top: 11%
+  }
+
+  #digits {
+    font-size: 5em
+  }
+
+  .App-config {
+
+  }
+
+  #start-btn {
+    margin-top: 4%;
+    font-size: 1.5em
+  }
+
+  #stop-btn {
+    margin-top: 4%;
+    font-size: 1.5em
+  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1280px)
+and (orientation : portrait) {
+
+  .App {
+    margin-top: 10%
+  }
+
+  .App-logo {
+    height: 125%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    height: 250px
+  }
+
+  #banner-text {
+    margin-top: 10%;
+    font-size:3.5em
+  }
+
+  .App-display {
+    margin-top: 30%;
+  }
+
+  #digits {
+    font-size: 7em
+  }
+
+  .App-config {
+    margin-top:15%;
+    font-size: 1.33em
+  }
+
+  #start-btn {
+    margin-top: 12%;
+    font-size: 2.5em
+  }
+
+  #stop-btn {
+    margin-top: 12%;
+    font-size: 2.5em
+  }
+}
+
+
+
+@media only screen
+and (min-device-width : 1080px)
+and (max-device-width : 1920px)
+and (orientation : landscape) {
+
+  .App {
+    margin-top: 2%
+  }
+
+  .App-logo {
+    height: 100%
+  }
+
+  .App-header {
+    height: 280px;
+
+  }
+
+  #banner-text {
+    font-size: 3.5em
+
+  }
+
+  .App-display {
+    margin-top: 11%
+  }
+
+  #digits {
+    font-size: 7em
+  }
+
+  .App-config {
+
+  }
+
+  #start-btn {
+    margin-top: 4%;
+    font-size: 2.5em
+  }
+
+  #stop-btn {
+    margin-top: 4%;
+    font-size: 2.5em
+  }
+}
+
+@media only screen
+and (min-device-width : 1080px)
+and (max-device-width : 1920px)
+and (orientation : portrait) {
+
+  .App {
+    margin-top: 15%
+  }
+
+  .App-logo {
+    height: 125%
+  }
+
+  .App-header {
+    padding-bottom: 0px;
+    margin-bottom: 0%;
+    height: 350px
+  }
+
+  #banner-text {
+    margin-top: 13%;
+    font-size: 5.5em
+  }
+
+  .App-display {
+    margin-top: 40%;
+  }
+
+  #digits {
+    font-size: 10.5em
+  }
+
+  .App-config {
+    margin-top:15%;
+    font-size: 1.33em
+  }
+
+  #start-btn {
+    margin-top: 15%;
+    font-size: 3em
+  }
+
+  #stop-btn {
+    margin-top: 15%;
+    font-size: 3em
+  }
+}
